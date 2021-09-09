@@ -1,0 +1,36 @@
+{
+    "name": "template",
+    "version": "0.1",
+    "description": "A template project for creating Chromium extensions",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_icon": {
+            "48": "data/img/icon48.png",
+            "128": "data/img/icon128.png"
+        }
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    },
+    "icons": {
+        "48": "data/img/icon48.png",
+        "128": "data/img/icon128.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "data/js/content.js"
+            ],
+            "css": [
+                "data/css/extension.css"
+            ],
+            "matches": [
+                "https://example_to_match_all_subdomains_of_website.com/*"
+            ]
+        }
+    ],
+    "manifest_version": 3
+}
