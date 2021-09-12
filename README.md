@@ -33,7 +33,7 @@
 | ![example UI](github/images/exampleUI.jpg "example UI") |
 | Image caption |
 
-An in-depth description of the extension and the problem is solves.
+An in-depth description of the extension and the problem it solves.
 
 ## Manual installation
 | |
